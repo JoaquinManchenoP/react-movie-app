@@ -1,0 +1,12 @@
+.search {
+  margin-top: 60px;
+}
+.input {
+  height: 20px;
+  width: 600px;
+  background-color: #303f9f;
+  color: white;
+}
+::placeholder {
+  color: white;
+}

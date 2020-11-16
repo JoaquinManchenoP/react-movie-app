@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid blue;
+}
+.watched__button {
+  margin: 20px;
+}
+
+.search__button {
+  margin: 20px;
+}
+.watchlist__button {
+  margin: 20px;
+}
