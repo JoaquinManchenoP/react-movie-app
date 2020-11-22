@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./SearchMovie.css";
-import axios from "axios";
+import MovieCard from "../MovieCard";
+
 
 const API_KEY = "4bc54e15840b8c23edd2fc082eff2e0e";
 
@@ -39,9 +40,15 @@ export default function SearchMovie() {
         ></input>
         <div>
           {results.map((movie, index) => (
-            <ul key={index}>{movie.title}</ul>
+           // <ul key={index}>{movie.title}</ul>
+           <MovieCard movie = {movie}/>
           ))}
         </div>
+      </div>
+      <div>
+
+
+        
       </div>
     </div>
   );
