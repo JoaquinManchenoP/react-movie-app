@@ -1,5 +1,5 @@
 .movie__card {
-  padding-top: 20px;
+  padding-top: 25px;
   display: flex;
   flex-direction: row;
   padding-left: 330px;
@@ -19,4 +19,18 @@
 }
 .movie__info {
   padding-left: 50px;
+  padding-top: 20px;
+}
+.movie__title {
+  font-family: "Fjalla One", sans-serif;
+  text-align: left;
+}
+
+.movie__year {
+  padding-top: 20px;
+  text-align: left;
+}
+.add__to__watchlist {
+  padding-top: 37px;
+  text-align: left;
 }

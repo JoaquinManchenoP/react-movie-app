@@ -14,3 +14,15 @@
 .watchlist__button {
   margin: 20px;
 }
+
+.nav__bar {
+  display: flex;
+}
+
+.website__title {
+  padding-left: 20px;
+  padding-top: 3px;
+  font-family: "Acme", sans-serif;
+  font-size: 18px;
+  color: #303f9f;
+}
