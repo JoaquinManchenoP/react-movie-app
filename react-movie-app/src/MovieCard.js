@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./MovieCard.css";
 import Button from "@material-ui/core/Button";
+import { GlobalContext } from "./context/GlobalState";
+import WatchList from "./WatchList/WatchList";
 
 export default function MovieCard({ movie }) {
+  const { addMovieToWatchList, watchlist } = useContext(GlobalContext);
+
+  let storedMovie = watchlist.find((o) => o.id === movie.id);
+
   return (
     <div className="movie__card">
       <div className="movie__image">
@@ -30,8 +36,10 @@ export default function MovieCard({ movie }) {
 
         <div className="add__to__watchlist">
           <Button
+            onClick={() => addMovieToWatchList(movie)}
             color="primary"
             variant="contained"
+            disabled={storedMovie ? true : false}
             style={
               ({ maxWidth: "70px", maxHeight: "40px" }, { fontSize: "11px" })
             }

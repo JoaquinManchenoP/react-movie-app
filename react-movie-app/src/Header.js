@@ -34,7 +34,7 @@ export default function Header() {
                 ({ maxWidth: "70px", maxHeight: "40px" }, { fontSize: "11px" })
               }
             >
-              <span>Watch List</span>
+              <span>WatchList</span>
             </Button>
           </Link>
         </div>

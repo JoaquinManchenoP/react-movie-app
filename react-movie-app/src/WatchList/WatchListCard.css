@@ -1,0 +1,19 @@
+.movie__card {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 330px;
+}
+
+.filler__poster {
+  height: 200px;
+  width: 140px;
+  border-radius: 25px;
+  display: flex;
+  background-color: gray;
+}
+
+.movie__image > img {
+  max-height: 200px;
+  border-radius: 25px;
+}
