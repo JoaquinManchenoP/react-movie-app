@@ -1,5 +1,6 @@
 import React from "react";
 import "./WatchListCard.css";
+import WatchListMovieControls from "./WatchListMovieControls";
 
 export default function WatchListCard({ movie, type }) {
   return (
@@ -21,7 +22,12 @@ export default function WatchListCard({ movie, type }) {
         </div>
         <div className="movie__year">
           {movie.release_date ? (
-            <span>{movie.release_date.substring(0, 4)}</span>
+            <>
+              <span>{movie.release_date.substring(0, 4)}</span>
+              <div className="movie__controls">
+                <WatchListMovieControls type={type} movie={movie} />
+              </div>
+            </>
           ) : (
             <span>Year Not found</span>
           )}

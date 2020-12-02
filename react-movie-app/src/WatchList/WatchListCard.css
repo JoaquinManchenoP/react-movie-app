@@ -17,3 +17,6 @@
   max-height: 200px;
   border-radius: 25px;
 }
+.movie__controls {
+  padding-top: 50px;
+}
