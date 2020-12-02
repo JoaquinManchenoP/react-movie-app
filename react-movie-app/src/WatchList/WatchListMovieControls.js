@@ -3,7 +3,9 @@ import Button from "@material-ui/core/Button";
 import { GlobalContext } from "../context/GlobalState";
 
 export default function WatchListMovieControls({ movie, type }) {
-  const { removeMovieFromWatchList } = useContext(GlobalContext);
+  const { removeMovieFromWatchList, addMovieToWatched } = useContext(
+    GlobalContext
+  );
 
   return (
     <div>
@@ -14,6 +16,7 @@ export default function WatchListMovieControls({ movie, type }) {
           style={
             ({ maxWidth: "70px", maxHeight: "40px" }, { fontSize: "11px" })
           }
+          onClick={() => addMovieToWatched(movie)}
         >
           Add to Watched
         </Button>

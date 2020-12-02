@@ -1,8 +1,7 @@
 import React from "react";
-import "./WatchListCard.css";
-import WatchListMovieControls from "./WatchListMovieControls";
+import WatchedMovieControls from "../Watched/WatchedMovieControls";
 
-export default function WatchListCard({ movie, type }) {
+export default function WatchedCard({ movie, type }) {
   return (
     <div className="movie__card">
       <div className="movie__image">
@@ -25,7 +24,7 @@ export default function WatchListCard({ movie, type }) {
             <>
               <span>{movie.release_date.substring(0, 4)}</span>
               <div className="movie__controls"></div>
-              <WatchListMovieControls movie={movie} type={type} />
+              <WatchedMovieControls movie={movie} type={type} />
             </>
           ) : (
             <span>Year Not found</span>
