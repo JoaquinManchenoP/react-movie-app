@@ -37,7 +37,7 @@ export default function SearchMovie() {
           className="input"
           value={input}
         ></input>
-        <div>
+        <div className="serach__results">
           {results.map((movie, index) => (
             // <ul key={index}>{movie.title}</ul>
             <MovieCard movie={movie} />

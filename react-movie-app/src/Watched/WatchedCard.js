@@ -27,7 +27,7 @@ export default function WatchedCard({ movie, type }) {
               <WatchedMovieControls movie={movie} type={type} />
             </>
           ) : (
-            <span>Year Not found</span>
+            <span className="not__found">Year Not found</span>
           )}
         </div>
       </div>

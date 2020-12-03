@@ -8,7 +8,7 @@ export default function Watched() {
   const { watched } = useContext(GlobalContext);
 
   return (
-    <div>
+    <div className="watched__card">
       <div className="title">
         <h3>Watched Movies</h3>
       </div>
@@ -20,7 +20,7 @@ export default function Watched() {
         </div>
       ) : (
         <div className="no__movies">
-          <h3>There are no movies</h3>
+          <h3>There are no Movies... add some</h3>
         </div>
       )}
     </div>

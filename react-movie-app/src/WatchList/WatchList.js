@@ -7,7 +7,7 @@ export default function WatchList() {
   return (
     <div>
       <div className="title">
-        <h2>Watch List</h2>
+        <h3>Watch List</h3>
       </div>
       {watchlist.length > 0 ? (
         <div className="watchlist">
@@ -17,7 +17,7 @@ export default function WatchList() {
         </div>
       ) : (
         <div className="no__movies">
-          <h3>no movies in the watchlist</h3>
+          <h3>No movies in the watchlist</h3>
         </div>
       )}
     </div>
