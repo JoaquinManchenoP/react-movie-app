@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className="website__title">
-        <h3>watchlist</h3>
+        <span>My WatchList</span>
       </div>
 
       <div className="nav__bar">
@@ -15,9 +15,9 @@ export default function Header() {
           <Link to="/watched" style={{ textDecoration: "none" }}>
             <Button
               color="primary"
-              variant="outlined"
+              variant="contained"
               style={
-                ({ maxWidth: "70px", maxHeight: "40px" }, { fontSize: "11px" })
+                ({ maxWidth: "30px", maxHeight: "30px" }, { fontSize: "11px" })
               }
             >
               <span>Watched</span>
@@ -29,9 +29,9 @@ export default function Header() {
           <Link to="/watchlist" style={{ textDecoration: "none" }}>
             <Button
               color="primary"
-              variant="outlined"
+              variant="contained"
               style={
-                ({ maxWidth: "70px", maxHeight: "40px" }, { fontSize: "11px" })
+                ({ maxWidth: "30px", maxHeight: "30px" }, { fontSize: "11px" })
               }
             >
               <span>WatchList</span>
@@ -42,7 +42,7 @@ export default function Header() {
         <div className="search__button">
           <Link to="/" style={{ textDecoration: "none" }}>
             <Button
-              color="primary"
+              color="secondary"
               variant="contained"
               style={
                 ({ maxWidth: "30px", maxHeight: "30px" }, { fontSize: "11px" })

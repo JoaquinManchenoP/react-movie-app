@@ -20,3 +20,14 @@
 .movie__controls {
   padding-top: 50px;
 }
+
+.title {
+  color: #303f9f;
+  font-family: "Yantramanav", sans-serif;
+  font-size: 20px;
+}
+.no__movies {
+  color: #303f9f;
+  font-family: "Yantramanav", sans-serif;
+  font-size: 20px;
+}

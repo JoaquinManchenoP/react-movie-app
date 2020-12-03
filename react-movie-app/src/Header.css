@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 1px solid blue;
+  height: 80px;
+  width: 100%;
+  background-color: #303f9f;
 }
 .watched__button {
   margin: 20px;
@@ -21,8 +23,9 @@
 
 .website__title {
   padding-left: 20px;
-  padding-top: 3px;
+  padding-top: 22px;
   font-family: "Acme", sans-serif;
-  font-size: 18px;
-  color: #303f9f;
+  font-size: 25px;
+  color: white;
+  font-family: "Yantramanav", sans-serif;
 }

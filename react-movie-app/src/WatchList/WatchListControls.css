@@ -1,0 +1,8 @@
+.watchlist__controls {
+  display: flex;
+  flex-direction: row;
+}
+
+.add__toWatched {
+  padding-right: 20px;
+}
