@@ -22,6 +22,7 @@ git clone https://github.com/JoaquinManchenoP/react-movie-app.git
 Go to the project directory
 
 cd react-movie-app
+cd react-movie-app
 
 ### Install dependencies
 
