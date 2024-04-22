@@ -14,17 +14,13 @@ React.js, Firebase
 
 
 ## Run Locally
-
-
-git clone https://github.com/JoaquinManchenoP/react-movie-app.git
+Fork project to your github.
+git clone [peoject web URL]
 
 Go to the project directory
-
-cd react-movie-app
 cd react-movie-app
 
 ### Install dependencies
-
 npm install
 
 ### Start the server 
