@@ -15,7 +15,6 @@ React.js, Firebase
 
 ## Run Locally
 
-### Clone the project
 
 git clone https://github.com/JoaquinManchenoP/react-movie-app.git
 
