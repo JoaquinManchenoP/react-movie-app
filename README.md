@@ -9,7 +9,7 @@ A movie watchlist app that allows users to search movies from the TMDB Api as we
 ![Alt text](movieapp1.png?raw=true "movieapp1")
 
 
-## Tech Stack
+## Stack
 React.js, Firebase
 
 
