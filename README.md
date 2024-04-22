@@ -20,9 +20,9 @@ git clone [peoject web URL]
 Go to the project directory
 cd react-movie-app
 
-### Install dependencies
+## Install dependencies
 npm install
 
-### Start the server 
+## Start the server 
 
 npm run start
